@@ -1,0 +1,107 @@
+\section{C. Mapping to Standard Relativistic Field Theory}
+
+\subsection{Recovering special relativity}
+
+To connect the triaxial time picture with ordinary special relativity, we
+specialize to the case of a flat, unsheared membrane. Concretely:
+
+\begin{itemize}
+    \item The membrane \(\Sigma\) is a flat subspace defined by
+    \(n^A = 0\), with constant normal vectors in \(\mathbb{R}^3_{\bm{T}}\).
+    \item The effective time direction \(U^a\) is constant and aligned
+    with one of the Cartesian axes, say \(T_1\).
+\end{itemize}
+
+In this regime, the projection
+\(\pi: (\mathbf{x}, \bm{T}) \mapsto (t, \mathbf{x})\) reduces to
+\(t = T_1/c\), and the induced metric on \(\Sigma\) is simply the Minkowski
+metric
+\begin{equation}
+    ds^2 = -c^2 dt^2 + d\mathbf{x}^2.
+\end{equation}
+
+Field modes localized in the normal directions obey effective equations that
+reduce to the standard relativistic wave equations for fields on Minkowski
+spacetime. Lorentz invariance arises as the symmetry group of the induced
+metric, independent of the choice of coordinates in the embedding
+\(\mathcal{E}\).
+
+Thus, in the absence of shear and curvature, the triaxial time framework
+exactly reproduces special relativity.
+
+\subsection{Relation to general relativity}
+
+In general relativity, gravity is encoded in the curvature of a four-dimensional
+Lorentzian manifold \((M, g_{\mu\nu})\). In the present framework, the
+induced metric on the membrane \(\Sigma\) plays the role of \(g_{\mu\nu}\),
+while the embedding of \(\Sigma\) in \(\mathcal{E}\) provides additional data
+in the form of extrinsic curvature.
+
+Working at a formal level, we can write the effective Einstein equations on
+\(\Sigma\) as
+\begin{equation}
+    G_{\mu\nu}[g] = 8\pi G\,T_{\mu\nu}^\text{eff},
+\end{equation}
+where the effective stress-energy tensor \(T_{\mu\nu}^\text{eff}\) includes
+both matter contributions from the projected fields \(\psi_k\) and geometric
+contributions from the extrinsic curvature and shear of the membrane.
+
+This is reminiscent of brane-world scenarios, but with a crucial difference:
+the extra dimensions here are temporal rather than spatial, and the metric in
+the temporal sector is chosen to avoid multiple physical time-like directions
+on the membrane itself.
+
+In a low-shear regime, the extrinsic contributions can be small, and one
+recovers ordinary general relativity to high accuracy. In highly curved or
+sheared regions, deviations from Einstein gravity can occur, potentially
+providing phenomenological handles on the triaxial temporal structure.
+
+\subsection{Quantum theory as distribution along \(T_3\)}
+
+Quantum theory introduces complex amplitudes over configuration space and
+time. In the triaxial time picture, the formal role of these amplitudes is
+played by distributions over the modal axis \(T_3\).
+
+Consider a state localized at spatial position \(\mathbf{x}\) and with some
+spread along \(T_3\). Denote the corresponding field configuration as
+\(\phi(\mathbf{x}, T_1, T_2, T_3)\). The probability amplitudes in standard
+quantum mechanics correspond to the coefficients of a decomposition along
+\(T_3\),
+\begin{equation}
+    \phi(\mathbf{x}, \bm{T}) =
+    \int dT_3\,\psi(\mathbf{x}, T_1, T_2; T_3)\,\chi(T_3),
+\end{equation}
+with the normalization condition
+\begin{equation}
+    \int dT_3\,|\psi(\mathbf{x}, T_1, T_2; T_3)|^2 = 1
+\end{equation}
+corresponding to conservation of total modal weight.
+
+The unitary time evolution of the quantum state is then reinterpreted as the
+deterministic evolution of the full field \(\phi\) along the effective time
+direction \(U^a\), with the Born rule arising as a measure over cross-sections
+of the \(T_3\) distribution when a process forces localization in that
+direction.
+
+This is not yet a complete quantum theory. However, it suggests a program:
+translate standard quantum dynamics into constraints on how mode-structures
+may be distributed and evolve along the modal axis \(T_3\), subject to the
+geometric and causal structure introduced earlier.
+
+\subsection{Internal symmetries from temporal rotations}
+
+Internal symmetries, such as those associated with gauge groups, can be
+encoded as rotations and deformations within the temporal sector. For
+example, a simple \(U(1)\) symmetry may be associated with phase rotations
+that correspond to rotations in a plane embedded in the \(T_2\)-\(T_3\)
+subspace.
+
+Higher non-Abelian gauge symmetries can arise from more elaborate isometries
+of the temporal metric \(\delta_{ab}\) that leave the membrane structure
+invariant. The corresponding gauge fields appear as components of the
+connection describing how the effective time direction \(U^a\) and the
+normal vectors twist across space.
+
+This picture parallels certain Kaluza--Klein constructions but assigns a
+distinct ontological role to the extra dimensions as temporal rather than
+compact spatial directions.

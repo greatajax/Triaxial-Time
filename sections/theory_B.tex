@@ -1,0 +1,119 @@
+\section{B. Dynamics, Modes, and Shear}
+
+\subsection{Field modes as temporal wavepackets}
+
+Let \(\phi(\mathbf{x}, \bm{T})\) denote a generic field defined on the extended
+temporal space. For concreteness we can consider a scalar field, but the
+construction generalizes. We assume that physical excitations correspond to
+\emph{mode-structures} that are localized in the normal directions of the
+temporal space and propagate along the membrane.
+
+In a local frame adapted to the membrane, we split the temporal coordinates
+into one tangential parameter \(\tau\) and two normal coordinates
+\(n^A\), \(A=1,2\), so that
+\begin{equation}
+    \bm{T} = \bm{T}(\tau, n^A).
+\end{equation}
+A physical mode is then characterized by a profile
+\begin{equation}
+    \phi(\mathbf{x}, \bm{T}) \approx \psi(\mathbf{x}, \tau)\,\chi(n^A),
+\end{equation}
+where \(\chi(n^A)\) is strongly localized around \(n^A=0\). Integrating out
+the normal directions yields an effective four-dimensional field
+\(\psi(\mathbf{x}, \tau)\) on the membrane.
+
+The dynamics of \(\phi\) in the embedding space induces effective dynamics
+for \(\psi\). A simple illustrative Lagrangian is
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}\left(
+        \partial_i \phi \,\partial^i \phi
+        - c^2\,\delta^{ab}\,\partial_a \phi \,\partial_b \phi
+        - m^2 \phi^2
+    \right),
+\end{equation}
+where indices \(i\) run over spatial coordinates and indices \(a\) over the
+three temporal directions. Upon mode decomposition and projection we obtain
+an effective action for \(\psi\) of the familiar Klein--Gordon type, but with
+corrections governed by the shape and dynamics of \(\chi\).
+
+\subsection{Shear as an effective interaction}
+
+Consider now how variations in the orientation of the membrane and the
+effective time direction affect the projected dynamics. Let
+\(U^a(\mathbf{x}, \tau)\) be the unit vector tangent to the membrane in the
+temporal sector. The derivative \(\nabla_i U^a\) measures how the physical
+time direction tilts as one moves in space.
+
+A key observation is that the kinetic term in the temporal sector,
+\(\delta^{ab}\partial_a\phi\,\partial_b\phi\), when written in the adapted
+frame, splits into components along \(U^a\) and along the normal directions.
+Tilting \(U^a\) relative to the fixed basis in \(\mathbb{R}^3_{\bm{T}}\)
+introduces mixing terms between tangential and normal derivatives.
+
+For localized modes, this mixing manifests as effective potentials and
+gauge-like couplings in the projected dynamics of \(\psi\). Schematically,
+one obtains terms of the form
+\begin{equation}
+    \mathcal{L}_\text{eff} \supset
+    \frac{1}{2}(\partial_\tau \psi)^2
+    - \frac{1}{2}(\nabla \psi)^2
+    - V_\text{geom}(\mathbf{x}, \tau)\,\psi^2
+    - A^\mu(\mathbf{x}, \tau)\,\psi\,\partial_\mu \psi
+    + \dots
+\end{equation}
+where the ``geometric potential'' \(V_\text{geom}\) and effective vector
+field \(A^\mu\) are functionals of \(\nabla_i U^a\) and related quantities.
+
+This is where shear enters the picture: spatial gradients in the orientation
+of the effective time direction play a dynamical role akin to gravitational
+and gauge fields. In rough terms:
+
+\begin{itemize}
+    \item Slow, large-scale variations of \(U^a\), smooth over many mode
+    wavelengths, reproduce gravitational effects via curvature of the
+    induced metric on \(\Sigma\).
+    \item Faster, more localized variations, especially those with internal
+    symmetries in the temporal sector, can behave like gauge fields acting
+    on internal degrees of freedom of the modes.
+\end{itemize}
+
+\subsection{Stable modes and quantization}
+
+The three-dimensional temporal sector provides a natural setting for
+quantization via normal-mode analysis. The normal directions \(n^A\) and the
+tangential direction \(\tau\) support standing wave solutions \(\chi(n^A)\)
+with discrete spectra. Each such normal mode defines a tower of effective
+four-dimensional fields \(\psi_k(\mathbf{x}, \tau)\) with characteristic
+masses and couplings.
+
+In simple backgrounds one can expand
+\begin{equation}
+    \phi(\mathbf{x}, \bm{T}) =
+    \sum_k \psi_k(\mathbf{x}, \tau)\,\chi_k(n^A),
+\end{equation}
+and carry the usual quantization procedures for the fields \(\psi_k\). The
+three-dimensional time picture adds structure primarily in how the background
+geometry and shear determine the spectrum \(\chi_k\) and the coupling of
+modes to each other.
+
+\subsection{Causality and consistency}
+
+Because \(\mathcal{E}\) is equipped with a product-like metric with a
+single distinguished causal direction induced on the membrane, one can
+enforce causal consistency with respect to \(\tau\), even though the
+underlying temporal space is three-dimensional.
+
+The key constraints are:
+
+\begin{enumerate}
+    \item The membrane \(\Sigma\) must admit a global time function \(\tau\)
+    with respect to the induced metric, ensuring no closed timelike curves
+    in the effective physical spacetime.
+    \item Dynamics in the normal directions must be such that changes in
+    mode-structure at a point depend only on data in its past light-cone
+    along \(\tau\).
+\end{enumerate}
+
+Under these conditions, the triaxial temporal ontology does not introduce
+new causal paradoxes beyond those already present---and tightly controlled---
+in standard relativistic field theories.

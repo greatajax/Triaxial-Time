@@ -1,0 +1,84 @@
+\section{F. Mathematical Appendix and Toy Models}
+
+This appendix sketches simple toy models that illustrate how the general
+ideas in the main text can be implemented in explicit equations. The goal is
+not completeness but concreteness.
+
+\subsection{Toy model: linearized membrane in flat temporal space}
+
+Consider a flat temporal space \(\mathbb{R}^3_{\bm{T}}\) with coordinates
+\((T_1,T_2,T_3)\) and a membrane defined by
+\begin{equation}
+    T_2 = \epsilon f(\mathbf{x}), \quad T_3 = 0,
+\end{equation}
+with small parameter \(\epsilon\) and smooth function \(f\). The base time
+coordinate is identified with \(T_1\).
+
+To first order in \(\epsilon\), the induced metric on the membrane acquires
+corrections of order \(\epsilon^2\), while the extrinsic curvature has
+components proportional to \(\epsilon\,\nabla_i \nabla_j f\). For a scalar
+field localized around the membrane, one finds effective corrections to its
+mass and kinetic terms controlled by these curvature components.
+
+This simple model shows how spatial variations in the embedding can generate
+effective potentials at low energy, providing a crude analog of gravitational
+backgrounds.
+
+\subsection{Toy model: modal axis as continuous label}
+
+To connect with quantum-like structure, consider a scalar field
+\(\phi(\mathbf{x}, T_1, T_3)\) with no explicit dependence on \(T_2\). The
+Lagrangian is
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}\left[
+        (\partial_{T_1}\phi)^2 - (\nabla\phi)^2
+        - c_m^2 (\partial_{T_3}\phi)^2 - m^2 \phi^2
+    \right].
+\end{equation}
+Fourier-transforming along \(T_3\),
+\begin{equation}
+    \phi(\mathbf{x}, T_1, T_3) =
+    \int \frac{dk_3}{2\pi}\,e^{ik_3 T_3}\,\tilde{\phi}(\mathbf{x}, T_1; k_3),
+\end{equation}
+we obtain a tower of modes \(\tilde{\phi}(\mathbf{x}, T_1; k_3)\) with
+effective masses
+\begin{equation}
+    m_\text{eff}^2 = m^2 + c_m^2 k_3^2.
+\end{equation}
+The distribution over \(k_3\) plays the role of a wavefunction spread over
+modal configurations. A process that localizes the field in \(T_3\) (e.g. via
+interaction with a large environment extended in \(T_2\)) corresponds to
+projection onto a narrower band of \(k_3\), echoing quantum collapse.
+
+\subsection{Constraints on signatures}
+
+A central mathematical concern is avoiding multiple independent time-like
+directions in the effective four-dimensional physics. In this framework, this
+is accomplished by:
+
+\begin{itemize}
+    \item Assigning a positive-definite metric to the temporal sector
+    \(\mathbb{R}^3_{\bm{T}}\) at the level of the embedding space.
+    \item Defining the physical time direction \(U^a\) as a distinguished
+    tangent vector on the membrane, with only that direction contributing a
+    negative signature to the induced metric.
+\end{itemize}
+
+This effectively realizes the extra temporal axes as internal parameters
+rather than additional physical time directions, despite their ontological
+temporal interpretation.
+
+\subsection{Open technical problems}
+
+Several mathematical challenges remain:
+
+\begin{itemize}
+    \item Constructing explicit, globally well-behaved embeddings \(\Sigma
+    \subset \mathcal{E}\) that reproduce known cosmological solutions.
+    \item Developing a full field-theoretic treatment of gauge fields as
+    connections associated with isometries in the temporal sector.
+    \item Formulating a rigorous Hilbert-space structure tied to distributions
+    along \(T_3\), with a clear derivation of the Born rule.
+\end{itemize}
+
+These tasks are left for future work.
