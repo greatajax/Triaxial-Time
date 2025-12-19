@@ -1,0 +1,129 @@
+**APPENDIX G
+Perturbations of Cognitive Harmonics Under Psychoactive Compounds**
+
+This appendix surveys the effects of major psychoactive substance classes on the triaxial temporal manifold of cognition. The purpose is not pharmacological taxonomy but dynamical characterization: each compound class perturbs the coupling of T1 (sequential projection), T2 (coherence and memory depth), and T3 (generativity), revealing structural features of the mind otherwise inaccessible to direct observation. These perturbations therefore provide indirect empirical windows into the harmonic architecture described in the main text.
+
+---
+
+## **G.1. Baseline Harmonic Regime of the Human Mind**
+
+In the unperturbed state, cognitive activity manifests as a constrained and self-correcting bundle of oscillations distributed across the temporal axes:
+
+* **T1** enforces sequential representation and spatialized articulation;
+* **T2** maintains mid-range coherence, emotional architecture, and cross-modal integration;
+* **T3** houses latent generative potentials and counterfactual structures.
+
+Healthy waking consciousness arises from a narrow cone of phase-locking between these layers. Psychoactive agents work by modifying the gain or coupling among these domains.
+
+---
+
+## **G.2. Psychedelics and Expansion of the T2–T3 Cone**
+
+Classical serotonergic psychedelics (e.g., psilocybin, LSD, DMT) reduce inhibitory gating, permitting T3 generative modes to bleed into T2 without the usual T1 filtration.
+Effects include:
+
+* expansion of generative bandwidth;
+* breakdown of rigid perceptual segmentation;
+* emergence of quasi-autonomous harmonic vortices colloquially described as “entities”;
+* synesthetic cross-linking as T2 becomes permeable to T3-originating frequency structures.
+
+The phenomenology of revelation or insight reflects transient stabilization of T2–T3 superpositions which rarely survive reintegration into T1.
+
+---
+
+## **G.3. Dissociatives and Attenuation of the T1 Anchor**
+
+NMDA-antagonist dissociatives (e.g., ketamine, PCP, DXM) impair signals that ordinarily bind T1 to T2.
+This produces:
+
+* weakening of bodily representation;
+* spatial detachment as the T1 projection collapses;
+* preservation of internal structure with absent external orientation;
+* subjective experiences corresponding to observation of one’s T2 architecture from within.
+
+The “K-hole” state is thus a quasi-static observation of the mind’s harmonic envelope without T1’s normal demands for continuity.
+
+---
+
+## **G.4. Stimulants and Hyper-Constriction of the T1 Axis**
+
+Amphetamine-class stimulants increase T1 amplitude and precision.
+Consequences include:
+
+* heightened focus and reduction of noise in T1;
+* suppression of T2 variability and T3 excursions;
+* enhanced symbolic manipulation within a narrowed attentional corridor;
+* vulnerability to paranoid ideation due to overinterpretation of sparse inputs.
+
+Stimulant-induced creativity is characterized by rapid traversal of T1–aligned possibility space rather than increased generative depth.
+
+---
+
+## **G.5. Cannabinoids and Controlled T1–T2 Dephasing**
+
+Cannabinoids partially desynchronize T1 and T2, yielding:
+
+* impaired short-term memory consolidation;
+* elastic distortions of perceived temporal flow;
+* increased lateral associations through T2–T3 crosstalk;
+* heightened susceptibility to conceptual novelty without structural retention.
+
+These states reveal the role of T2–T1 coupling in the construction of coherent narrative time.
+
+---
+
+## **G.6. Opiates and Contraction of Harmonic Amplitude**
+
+Opiates damp high-frequency oscillation across all axes while preserving gross structure.
+This produces:
+
+* suppression of T1 vigilance and critical filtering;
+* smoothing of T2 emotional and aesthetic fields;
+* rare but highly stable surfaces between T2 and T3 that may resolve into coherent linguistic or artistic forms.
+
+Unlike psychedelics, opiates do not increase generativity; they increase **clarity of T2 reception**, occasionally allowing particularly stable T3 configurations to manifest as complete and durable ideas.
+
+---
+
+## **G.7. Deliriants and T3 Leakage Without T2 Mediation**
+
+Anticholinergic deliriants disrupt the coherence constraints that prevent free-floating T3 modes from projecting into T1.
+This leads to:
+
+* formation of hallucinatory constructs indistinguishable from external stimuli;
+* loss of boundary conditions between internal modes and perceptual projection;
+* cognitive incoherence due to the absence of T2 modulation.
+
+These states demonstrate the structural necessity of T2 as a mediating layer that binds generative possibility to coherent representation.
+
+---
+
+## **G.8. Addiction as Hysteresis in Harmonic Phase Space**
+
+Addiction can be interpreted as hysteresis within the T1–T2–T3 manifold: the system repeatedly seeks a region of state space in which one axis is stabilized or relieved despite long-term deformity of the others. Repeated dosing forms attractors—deepened basins in the harmonic landscape—driving the mind back to configurations that, while suboptimal globally, mask instabilities in one axis.
+
+This model reframes addiction from reward-loop pathology to maladaptive phase-locking.
+
+---
+
+## **G.9. Implications for Empirical Validation**
+
+Drug-induced perturbations provide non-invasive probes of the harmonic architecture:
+
+* **psychedelics** test T2–T3 permeability;
+* **dissociatives** test T1 anchoring mechanisms;
+* **stimulants** test T1 precision versus bandwidth;
+* **opiates** test T2 smoothing and receptivity;
+* **deliriants** test mandatory mediation functions of T2.
+
+Systematic phenomenological reports correlated with neural-state measurements may allow indirect reconstruction of temporal-mode coupling patterns predicted by the theory.
+
+---
+
+## **G.10. Concluding Remarks**
+
+Psychoactive agents reveal that consciousness is not a monolithic substance but a dynamic equilibrium of temporal harmonics. Their disruptions and enhancements are not “hallucinations” or “distortions” but windows into the deeper architecture of time-bound cognition. Understanding these perturbations not only validates the theoretical model but also opens avenues for controlled modulation of cognitive harmonics for therapeutic, artistic, or scientific purposes.
+
+---
+
+If you want, this appendix can be extended with tables, diagrams, or a formal mathematical representation of each drug class as perturbations to the coupling matrices defined earlier in the paper.
