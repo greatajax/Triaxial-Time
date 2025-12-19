@@ -1,113 +1,36 @@
 \section{A. Geometry of Triaxial Time}
+\label{sec:geometry}
 
-\subsection{The extended temporal manifold}
+\subsection{The tri-temporal manifold}
 
-Let \(M\) denote the usual \(3+1\)-dimensional spacetime manifold of standard
-relativistic physics, with local coordinates \((t, \mathbf{x}) = (t, x^i)\),
-\(i = 1,2,3\), and with a Lorentzian metric \(g_{\mu\nu}\).
-
-In the present framework we replace the single time coordinate \(t\) with a
-three-component temporal vector
+The foundational object is a three-dimensional temporal manifold \(\mathcal{T} = \mathbb{R}^3_{\bm{T}}\) with coordinates \(\bm{T} = (T_1, T_2, T_3)\). No spatial coordinates are assumed. The basic metric is positive-definite in the temporal sector,
 \begin{equation}
-    \bm{T} = (T_1, T_2, T_3) \in \mathbb{R}^3.
+    d\sigma^2 = \delta_{ab}\,dT^a dT^b,
 \end{equation}
-The extended kinematic arena is then
+encoding separations inside \(\mathcal{T}\). A zero-net-energy balance is imposed through three action densities \(\mathcal{S}_a(\bm{T})\) obeying
 \begin{equation}
-    \mathcal{E} = \mathbb{R}^3_{\mathbf{x}} \times \mathbb{R}^3_{\bm{T}},
+    \partial_{T_1}\mathcal{S}_1 + \partial_{T_2}\mathcal{S}_2 + \partial_{T_3}\mathcal{S}_3 = 0,
 \end{equation}
-equipped with a metric that is locally the product of a spatial metric and a
-positive-definite metric on the temporal sector:
+which forbids runaway flow along any single axis and sets the stage for conserved quantities after projection.
+
+\subsection{Physical time as braided direction}
+
+Events are modeled as local braids in \(\mathcal{T}\). Each braid selects a preferred direction \(U^a\) that we identify with effective physical time. The remaining two directions span a normal plane encoding latent structure that does not appear directly in clock readings but still affects dynamics through shear. The choice of \(U^a\) is not arbitrary: it must align with the zero-net-energy condition so that energy borrowed along one temporal strand is repaid along the others.
+
+\subsection{Emergent relational space}
+
+Apparent spatial order is reconstructed from how nearby braids remain coherent. Define relational coordinates \(X^i\) as integrals of a connection \(\Gamma^i{}_a(\bm{T})\) that tracks the relative twist of neighboring braids:
 \begin{equation}
-    ds^2 = h_{ij}\,dx^i dx^j - c^2\,\delta_{ab}\,dT^a dT^b,
+    dX^i = \Gamma^i{}_a(\bm{T})\,dT^a.
 \end{equation}
-where \(h_{ij}\) may be taken to be Euclidean at small scales and \(a,b\)
-index the temporal coordinates.
+Levels of constant \(X^i\) label collections of events that advance in lockstep along \(U^a\). Curvature of \(\Gamma^i{}_a\) measures how these collections drift relative to one another and, when translated into the emergent description, plays the role of spatial curvature or field strength.
 
-We deliberately \emph{do not} identify any of the \(T_a\) individually with
-the physical time coordinate of ordinary relativity. Instead, the physical
-time direction emerges as a \emph{derived} one-dimensional subspace in the
-three-dimensional temporal manifold.
+\subsection{Shear and curvature inside \(\mathcal{T}\)}
 
-\subsection{The spacetime membrane}
-
-An observer does not have direct access to all three temporal axes. Rather,
-physical processes are confined to a four-dimensional submanifold
-\(\Sigma \subset \mathcal{E}\) of codimension two in the temporal sector. At
-each point \((\mathbf{x}, \bm{T})\in \Sigma\), there is:
-
-\begin{itemize}
-    \item A \emph{tangent direction} in the temporal space, identified with
-    the effective physical time direction \(u^a(\mathbf{x}, \bm{T})\).
-    \item Two \emph{normal directions} in the temporal space, which we
-    interpret as directions along which the underlying mode-structure can
-    extend without being directly available to the observer.
-\end{itemize}
-
-Locally, one can choose coordinates so that the membrane is specified by
-constraints of the form
+Shear is captured by gradients of \(U^a\) across \(\mathcal{T}\). Invariantly, the tensor
 \begin{equation}
-    \Phi_\alpha(\mathbf{x}, \bm{T}) = 0, \quad \alpha = 1,2,
+    \Xi_{ab} = \nabla_a U_b - \nabla_b U_a
 \end{equation}
-with the effective physical time coordinate given by a parameter \(\tau\)
-along the integral curves of the vector field
-\begin{equation}
-    U = U^a \frac{\partial}{\partial T^a}
-\end{equation}
-tangent to \(\Sigma\) in the temporal sector.
+tracks how the effective time direction twists within the temporal manifold. Smooth, large-scale components of \(\Xi_{ab}\) generate the gravitational sector after projection. Rapid, structured variations correspond to internal symmetries and gauge-like effects. Because all of these quantities live inside \(\mathcal{T}\), they respect the zero-net-energy constraint by construction.
 
-In this language, standard spacetime is the image of \(\Sigma\) under the
-projection
-\begin{equation}
-    \pi: \Sigma \to M, \qquad
-    \pi(\mathbf{x}, \bm{T}) = (t(\bm{T}), \mathbf{x}),
-\end{equation}
-for some function \(t: \mathbb{R}^3_{\bm{T}} \to \mathbb{R}\) that extracts
-the scalar ``clock time'' from the triaxial temporal coordinates.
-
-\subsection{Interpretation of the axes}
-
-While the theory does not require a unique psychological interpretation of
-the three axes, it is useful to have a working picture:
-
-\begin{itemize}
-    \item \(T_1\): the direction approximately aligned with the parameter
-    measured by physical clocks; it represents the advance of events.
-    \item \(T_2\): the direction in which persistent structures---records,
-    correlations, and memories---extend, giving them effective temporal
-    thickness.
-    \item \(T_3\): the direction along which near-by alternative evolutions
-    and modal branches are parameterized; quantum amplitudes can be thought of
-    as distributions across this axis.
-\end{itemize}
-
-The effective physical time direction \(U^a\) at a point is, in general,
-a linear combination of these axes. Its orientation reflects the relative
-weight that the local mode-structure places on persistence versus
-exploration. A fully deterministic classical trajectory corresponds to a mode
-that is sharply localized in \(T_3\) and extended primarily along a
-\(T_1\)-\(T_2\) plane, while a quantum-coherent process has a nontrivial
-spread along \(T_3\).
-
-\subsection{Shear and curvature in temporal space}
-
-The geometry of the membrane is controlled by how the physical time direction
-\(U^a\) and the normal directions vary with position \(\mathbf{x}\) and
-temporal location \(\bm{T}\). The key quantities are:
-
-\begin{itemize}
-    \item \textbf{Temporal curvature:} variations of the normal vectors as
-    one moves along spatial directions, analogous to curvature of an embedded
-    surface.
-    \item \textbf{Temporal shear:} gradients in the orientation of \(U^a\)
-    across space, which we will later see can be associated with gravitational
-    and gauge-like fields.
-\end{itemize}
-
-Informally, gravity arises from the way the membrane bends and shears in the
-three-dimensional temporal space. A freely falling particle follows a
-geodesic of the induced metric on \(\Sigma\); but that geodesic, when viewed
-in the embedding space \(\mathcal{E}\), may correspond to a nontrivial motion
-through the temporal manifold.
-
-The rest of the paper develops these geometric ideas into a dynamical
-framework consistent with known physics.
+This geometric picture eliminates the need for a spatial embedding. Everything observed is a shadow of braids and shear inside three-dimensional time.
